@@ -4,8 +4,6 @@ import Congrats from './Congrats';
 
 import { findByTestAttr, checkProps } from '../test/testUtils';
 
-
-
 const defaultProps = { success: false };
 
 const setup = (props = {}) => {
