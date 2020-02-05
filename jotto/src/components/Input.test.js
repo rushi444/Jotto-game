@@ -9,10 +9,9 @@ const setup = (initialState = {}) => {
   const wrapper = shallow(<Input store={store} />)
     .dive()
     .dive();
+    // console.log(wrapper.debug()) --Check if you aren't sure what wrapper is
   return wrapper;
 };
-
-setup();
 
 describe('render', () => {
   describe('word has not been guessed', () => {
